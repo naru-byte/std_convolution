@@ -1,0 +1,19 @@
+name: sssd2019
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.7
+  - pytorch=1.7.0
+  - torchvision=0.8.1
+  - pytorch-lightning
+  - tqdm=4.41.0
+  - pip
+  - matplotlib=3.3.3
+  - av=8.0.2
+  - pip:
+      - wandb
+      - wget
+      - ray
+      - pillow-simd
+      # - tensorboard==2.0.0
